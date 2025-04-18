@@ -30,17 +30,31 @@
 
 # 4). Find greatest among three
 
-a = int(input('Enter a: '))
-b = int(input('Enter b: '))
-c = int(input('Enter c: '))
+# a = int(input('Enter a: '))
+# b = int(input('Enter b: '))
+# c = int(input('Enter c: '))
 
-if a >= b and a >= c:
-    print(f'A is greatest: {a}')
-elif b >= a and b >= c:
-    print(f'B is greatest: {b}')
+# if a >= b and a >= c:
+#     print(f'A is greatest: {a}')
+# elif b >= a and b >= c:
+#     print(f'B is greatest: {b}')
+# else:
+#     print(f'C is greatest: {c}')
+
+# 5.) Check Leap Year
+
+year = int(input('Enter Year to Check:'))
+
+if year % 4 == 0 :
+    if(year % 100 == 0) :
+        if(year % 400 == 0):
+            print(f'Yes {year}')
+        else:
+            print('No')
+    else:
+        print('Yes')
 else:
-    print(f'C is greatest: {c}')
-
+    print('No')
     
 
 
