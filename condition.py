@@ -19,14 +19,29 @@
 
 #3). Check positive , negative , zero
 
-num = int(input('Enter Number to Check:'))
+# num = int(input('Enter Number to Check:'))
 
-if num == 0:
-    print('Zero')
-elif num > 0:
-    print('Positive')
+# if num == 0:
+#     print('Zero')
+# elif num > 0:
+#     print('Positive')
+# else:
+#     print('Negative')
+
+# 4). Find greatest among three
+
+a = int(input('Enter a: '))
+b = int(input('Enter b: '))
+c = int(input('Enter c: '))
+
+if a >= b and a >= c:
+    print(f'A is greatest: {a}')
+elif b >= a and b >= c:
+    print(f'B is greatest: {b}')
 else:
-    print('Negative')
+    print(f'C is greatest: {c}')
+
+    
 
 
 
