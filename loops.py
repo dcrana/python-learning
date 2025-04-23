@@ -19,3 +19,5 @@ E = {"name":'raj',"age" :42}
 R = range(1,10,5)
 for i in R :
     print(i)
+else :
+    print('Loop completed')
