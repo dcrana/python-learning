@@ -47,9 +47,19 @@
 # dict
 # print(dict)
 
-l = [43,654,123,634,34,12,63]
-s = 'tester'
-print(l[2:5])
-print(l[6:4:-1])
+# l = [43,654,123,634,34,12,63]
+# s = 'tester'
+# print(l[2:5])
+# print(l[6:4:-1])
 
+def std(name,age,**marks):
+    print(marks)
+    for key,value in marks.items():
+        print(f'{key}:{value}')
+    for key in marks:
+        print(key)
+    for value in marks.values():
+        print(value)
+
+std('raj',3,maths=30,eng=64,phy=34)
 
