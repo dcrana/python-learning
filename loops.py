@@ -36,9 +36,20 @@
 # print(test_list)
 
 # tupple methos example
-tup1 = (18,0)
-tup2 = (4,15)
-# del tup2
-print(max(tup1,tup2))
-print(min(tup1,tup2))
-print(tup2)
+# tup1 = (18,0)
+# tup2 = (4,15)
+# # del tup2
+# print(max(tup1,tup2))
+# print(min(tup1,tup2))
+# print(tup2)
+
+# dict = {'name':'Raj','surname':'Rahot',('h',"e"):(180,25)}
+# dict
+# print(dict)
+
+l = [43,654,123,634,34,12,63]
+s = 'tester'
+print(l[2:5])
+print(l[6:4:-1])
+
+
