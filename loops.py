@@ -11,13 +11,26 @@
 #     print('Loop Completed')
 
 # for
-A = [1,2,5,7,8,345,4]
-B = (5,4,62,3523,34)
-C = 'Divyaraj'
-D = [{"name":'raj',"age" :42},{"name":'raj',"age" :42}]
-E = {"name":'raj',"age" :42}
-R = range(1,10,5)
-for i in R :
-    print(i)
-else :
-    print('Loop completed')
+
+# A = [1,2,5,7,8,345,4]
+# B = (5,4,62,3523,34)
+# C = 'Divyaraj'
+# D = [{"name":'raj',"age" :42},{"name":'raj',"age" :42}]
+# E = {"name":'raj',"age" :42}
+# R = range(1,10,5)
+# for i in D :
+#     print(i)
+# else :
+#     print('Loop completed')
+
+# String methods
+
+# s = 'Hello world , awsome work'
+# print(s.split(' '))
+
+# list methods
+test_list = [1,3,7,23,1,24,52,8]
+y = test_list.sort()
+# test_list = ['raj','ajay','bonoy','rok','kl','ab','dk']
+
+print(test_list)
