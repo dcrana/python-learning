@@ -38,5 +38,7 @@
 # tupple methos example
 tup1 = (18,0)
 tup2 = (4,15)
+# del tup2
 print(max(tup1,tup2))
 print(min(tup1,tup2))
+print(tup2)
