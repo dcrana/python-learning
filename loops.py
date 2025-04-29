@@ -28,9 +28,15 @@
 # s = 'Hello world , awsome work'
 # print(s.split(' '))
 
-# list methods
-test_list = [1,3,7,23,1,24,52,8]
-y = test_list.sort()
+# list methods``
+# test_list = [1,3,7,23,1,24,52,8]
+# y = test_list.sort()
 # test_list = ['raj','ajay','bonoy','rok','kl','ab','dk']
 
-print(test_list)
+# print(test_list)
+
+# tupple methos example
+tup1 = (18,0)
+tup2 = (4,15)
+print(max(tup1,tup2))
+print(min(tup1,tup2))
