@@ -5,6 +5,7 @@ class encaps :
         self.speed = 10 
         self.__newSpeed = 20 #private data
         print(self.__newSpeed)
+        self.__private_funcyion()
         
     # getter
     def get_speed_value(self):
@@ -13,9 +14,13 @@ class encaps :
     def set_speed_value(self,value):
         self.__newSpeed = value
         
+    def __private_funcyion(self):
+        print('private')
+        
     
 obj = encaps()
-print(obj.speed)
-print(obj.get_speed_value())
-obj.set_speed_value(1900)
-print(obj.get_speed_value())
+# print(obj.speed)
+# print(obj.get_speed_value())
+# obj.set_speed_value(1900)
+# print(obj.get_speed_value())
+# obj.__private_funcyion()
